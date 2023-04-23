@@ -1,7 +1,0 @@
-The provided evaluation result shows that your model, which was trained with the standard categorical crossentropy loss and noisy data, achieved a validation loss of 0.4573 and an accuracy of 82.37% on the test dataset.
-
-Comparing the performance of the two models, the model with the custom tempered loss had a slightly higher accuracy (83.77% vs 82.37%). However, the difference in performance is not very large.
-
-Given that both models were trained on noisy data, it's important to consider the trade-offs between using the custom tempered loss or the standard categorical crossentropy loss. The custom tempered loss may provide better robustness to noise in the data, but the standard categorical crossentropy loss is simpler and more widely used.
-
-Also the values for t1 and t2 are hyperparameters for the custom loss and can be tuned more to achieve better results in the nosiy data.Also we can  further experiment with different model architectures, hyperparameters, and data preprocessing techniques to see if there is a more significant difference in performance between the two loss functions. 
