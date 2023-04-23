@@ -1,0 +1,9 @@
+1) The traditional softmax function can lead to poor generalization on out-of-distribution data, where the model may be overconfident in its predictions.
+
+2) The paper proposes a new loss function called the bi-tempered logistic loss, which incorporates a temperature scaling parameter to provide more robust predictions and better generalization.
+
+3) The bi-tempered logistic loss function introduces two temperature scaling parameters, t1 and t2, which control the shape of the loss function and the degree of confidence in the predictions.
+
+4) The paper also introduces a new softmax function called the tempered softmax, which is used in conjunction with the bi-tempered logistic loss function. The tempered softmax function introduces a temperature scaling parameter, t2, to provide more robust predictions.
+
+5) The paper presents experiments on several image classification datasets, showing that the bi-tempered logistic loss function and tempered softmax function can significantly improve performance over traditional softmax-based methods.
